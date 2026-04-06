@@ -1,15 +1,13 @@
-import Navbar from "./Common/Navbar"
-import Container from "./components/Container"
+import Navbar from "./Common/Navbar";
+import Banner from "./components/Banner";
 
- 
-
-function App() { 
-
+function App() {
   return (
     <>
-    <Navbar/>
+      <Navbar />
+      <Banner />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
