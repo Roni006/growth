@@ -22,7 +22,7 @@ const Navbar = () => {
                     </ul>
                 </nav>
                 <div>
-                    <button className='bg-[#7056e0] text-white text-[22px] font-medium py-3 px-4 cursor-pointer border-3  border-[#7056e0] rounded-md hover:bg-transparent hover:border-[#ffffff] duration-300 ease-in-out'>Get in Touch</button>
+                    <button className='bg-[#7056e0] text-white text-[22px] font-medium py-2 px-4 cursor-pointer border-3  border-[#7056e0] rounded-md hover:bg-transparent hover:border-[#ffffff] duration-300 ease-in-out'>Get in Touch</button>
                 </div>
             </div>
            </div>
