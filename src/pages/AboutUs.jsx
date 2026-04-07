@@ -1,5 +1,6 @@
 import Container from "../../src/components/Container";
 import check from "../../src/icons/check.svg";
+import aboutrightimg from '../../src/img/about/aboutimg.png'
 
 const AboutUs = () => {
   return (
@@ -11,7 +12,7 @@ const AboutUs = () => {
               Discover Our Financial Expertise and Commitment
             </h1>
 
-            <div>
+            <div className="flex items-center gap-20  ">
               <div>
                 <p className="text-[20px] font-normal text-[#222222] pt-10 pb-6 w-159   ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -77,7 +78,9 @@ const AboutUs = () => {
                   Read More
                 </button>
               </div>
-              <div></div>
+              <div>
+                <img className="w-full " src={aboutrightimg} alt="" />
+              </div>
             </div>
           </div>
         </Container>
