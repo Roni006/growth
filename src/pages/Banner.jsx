@@ -1,5 +1,6 @@
 import React from 'react'
-import Container from './Container'
+// import Container from './components/Container'
+import Container from '../../src/components/Container'
 
 import hero from '../../src/img/banner-img/hero.png'
 import rectangle from '../../src/img/banner-img/rectangle.png'
