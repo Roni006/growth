@@ -40,13 +40,16 @@ const services =[
 
   return (
     <>
-    <section className="py-10 bg-[#EFEFEF] ">
+    <section className="py-10 bg-[#EFEFEF]">
         <Container>
             <div> 
+                {/* service:text  */}
                 <div>
-                <h1 className="text-[75px] font-bold leading-[130%] text-[#552fff] max-w-[780px] mx-auto text-center "> Our Services for Financial Success</h1>  
-                <p className="text-[#222222] font-normal text-[20px] max-w-[550px] mx-auto mt-10 text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra venenatis est sed consequat.</p>  
+                    <h1 className="text-[75px] font-bold leading-[130%] text-[#552fff] max-w-[780px] mx-auto text-center"> Our Services for Financial Success</h1>  
+                    <p className="text-[#222222] font-normal text-[20px] max-w-[550px] mx-auto mt-10 text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra venenatis est sed consequat.</p>  
                 </div> 
+                {/* service:text  */}
+                
                 {/* box content  */}
                 <div className="mt-[70px] flex flex-wrap items-center justify-center gap-[50px]">
                     {services.map((service,i)=>(
