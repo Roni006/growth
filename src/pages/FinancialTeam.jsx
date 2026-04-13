@@ -25,31 +25,47 @@ const FinancialTeam = () => {
 
             {/* bottom content  */}
             <div className="grid grid-cols-4 items-center justify-center gap-8.5 mt-[70px]">
-
-              <div className="text-center w-[300px]" >
+              <div className="text-center w-[300px]">
                 <img className="rounded-[20px] mb-5.75 " src={team1} />
-                <h2 className="text-[#552fff] font-semibold text-[32px] leading-[130%] ">Kyle Winder</h2>
-                <p className="text-[#222222] font-normal leading-[130%] text-[20px] pt-1 ">Managing Director</p>
+                <h2 className="text-[#552fff] font-semibold text-[32px] leading-[130%] ">
+                  Kyle Winder
+                </h2>
+                <p className="text-[#222222] font-normal leading-[130%] text-[20px] pt-1 ">
+                  Managing Director
+                </p>
               </div>
 
-              <div className="text-center w-[300px]" >
-                <img className="rounded-[20px] mb-5.75 " src={team1} />
-                <h2 className="text-[#552fff] font-semibold text-[32px] leading-[130%] ">Kyle Winder</h2>
-                <p className="text-[#222222] font-normal leading-[130%] text-[20px] pt-1 ">Managing Director</p>
+              <div className="text-center w-[300px]">
+                <img className="rounded-[20px] mb-5.75 " src={team2} />
+                <h2 className="text-[#552fff] font-semibold text-[32px] leading-[130%] ">
+                  Kyle Winder
+                </h2>
+                <p className="text-[#222222] font-normal leading-[130%] text-[20px] pt-1 ">
+                  Managing Director
+                </p>
               </div>
 
-              <div className="text-center w-[300px]" >
-                <img className="rounded-[20px] mb-5.75 " src={team1} />
-                <h2 className="text-[#552fff] font-semibold text-[32px] leading-[130%] ">Kyle Winder</h2>
-                <p className="text-[#222222] font-normal leading-[130%] text-[20px] pt-1 ">Managing Director</p>
+              <div className="text-center w-[300px]">
+                <img className="rounded-[20px] mb-5.75 " src={team3} />
+                <h2 className="text-[#552fff] font-semibold text-[32px] leading-[130%] ">
+                  Kyle Winder
+                </h2>
+                <p className="text-[#222222] font-normal leading-[130%] text-[20px] pt-1 ">
+                  Managing Director
+                </p>
               </div>
-              
-              <div className="text-center w-[300px]" >
-                <img className="rounded-[20px] mb-5.75 " src={team1} />
-                <h2 className="text-[#552fff] font-semibold text-[32px] leading-[130%] ">Kyle Winder</h2>
-                <p className="text-[#222222] font-normal leading-[130%] text-[20px] pt-1 ">Managing Director</p>
+
+              <div className="text-center w-[300px]">
+                <img className="rounded-[20px] mb-5.75 " src={team4} />
+                <h2 className="text-[#552fff] font-semibold text-[32px] leading-[130%] ">
+                  Kyle Winder
+                </h2>
+                <p className="text-[#222222] font-normal leading-[130%] text-[20px] pt-1 ">
+                  Managing Director
+                </p>
               </div>
             </div>
+            {/* bottom content  */}
           </div>
         </Container>
       </section>
