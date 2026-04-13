@@ -4,6 +4,7 @@ import AboutUs from "../src/pages/AboutUs";
 import Service from "../src/pages/Service";
 import FinancialTeam from "../src/pages/FinancialTeam";
 import Testimonial from "./pages/Testimonial";
+import OurBlog from "./pages/OurBlog";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Service/>
       <FinancialTeam/>
       <Testimonial/>
+      <OurBlog/>
     </>
   );
 }
