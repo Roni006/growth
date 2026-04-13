@@ -6,7 +6,7 @@ import team4 from "../../src/img/team/team4.png";
 const FinancialTeam = () => {
   return (
     <>
-      <section className="py-10">
+      <section className="py-10  bg-[#EFEFEF] ">
         <Container>
           <div>
             {/* top content  */}
