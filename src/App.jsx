@@ -6,6 +6,7 @@ import FinancialTeam from "../src/pages/FinancialTeam";
 import Testimonial from "./pages/Testimonial";
 import OurBlog from "./pages/OurBlog";
 import ContactUs from "./pages/ContactUs";
+import Footer from "./Common/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Testimonial/>
       <OurBlog/>
       <ContactUs/>
+      <Footer/>
     </>
   );
 }

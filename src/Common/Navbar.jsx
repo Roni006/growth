@@ -9,8 +9,8 @@ const Navbar = () => {
            <div className='flex items-center justify-between py-5'>
             <div>
                 <a href="/">
-                <h1 className='text-white font-bold text-[40px]  '>Growth</h1>
-                </a>
+                <h1 className='text-white font-bold text-[40px]'>Growth</h1>
+                </a> 
             </div>
             <div className='flex items-center gap-[50px]'>
                 <nav>

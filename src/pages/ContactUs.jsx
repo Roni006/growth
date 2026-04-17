@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <>
       <section className="py-10 bg-[#eeeeee] ">
-        <Container className="bg-[#b4aeae] ">
+        <Container className="shadow-2xl ">
           <div className="flex items-center gap-12.5">
             {/* left part  */}
             <div className="w-110 ">
