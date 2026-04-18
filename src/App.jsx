@@ -17,8 +17,7 @@ function App() {
       <Service/>
       <FinancialTeam/>
       <Testimonial/>
-      <OurBlog/>
-      <ContactUs/>
+      <OurBlog/> 
       <Footer/>
     </>
   );

@@ -1,11 +1,12 @@
-import React from 'react'
-import Container from '../components/Container'
+import React from "react";
+import Container from "../components/Container";
 
 const ContactUs = () => {
   return (
     <>
-      <section className="py-10 bg-[#eeeeee] ">
-        <Container className="shadow-2xl ">
+      <section className="">
+        {/* <Container className="shadow-2xl "> */}
+        <div className="max-w-332.5 mx-auto bg-[#E9E9E9] absolute left-2 right-0 py-18 px-19 mt-10 rounded-[30px]">
           <div className="flex items-center gap-12.5">
             {/* left part  */}
             <div className="w-110 ">
@@ -15,7 +16,7 @@ const ContactUs = () => {
             </div>
 
             {/* right part  */}
-            <div className="w-163.5 ">
+            <div className="w-163.5">
               <p className="text-[18px] font-normal font-poppins text-[#222222] mb-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Maecenas viverra venenatis est sed consequat.
@@ -37,10 +38,11 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-        </Container>
+        </div>
+        {/* </Container> */}
       </section>
     </>
   );
-}
+};
 
-export default ContactUs
+export default ContactUs;
