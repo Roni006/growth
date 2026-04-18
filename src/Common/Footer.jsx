@@ -20,20 +20,20 @@ const Footer = () => {
             {/* item 2 */}
             <div className="max-w-[150p]">
               <h5 className="text-white text-[24px] font-medium font-overpass pb-4">
-                Quick Links
+                Pages
               </h5>
               <ul className="flex flex-col gap-y-1">
                 <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Home</a>
+                  <a href="#">Our Blog</a>
                 </li>
                 <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">About Us</a>
+                  <a href="#">Our Team</a>
                 </li>
                 <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Our Services</a>
+                  <a href="#">Testimonial</a>
                 </li>
                 <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Contact us</a>
+                  <a href="#">CTA</a>
                 </li>
               </ul>
             </div>
