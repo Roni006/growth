@@ -17,7 +17,27 @@ const Footer = () => {
                 ultricies mi in ipsum vehicula lacinia. Iner porttitor ac libero
               </p>
             </div>
-            {/* item 2 */}
+            {/* item 2 */} 
+            <div className="max-w-[150p]">
+              <h5 className="text-white text-[24px] font-medium font-overpass pb-4">
+                Quick Links
+              </h5>
+              <ul className="flex flex-col gap-y-1">
+                <li className="text-white text-[18px] font-medium font-poppins">
+                  <a href="#">Home</a>
+                </li>
+                <li className="text-white text-[18px] font-medium font-poppins">
+                  <a href="#">About Us</a>
+                </li>
+                <li className="text-white text-[18px] font-medium font-poppins">
+                  <a href="#">Our Services</a>
+                </li>
+                <li className="text-white text-[18px] font-medium font-poppins">
+                  <a href="#">Contact us</a>
+                </li>
+              </ul>
+            </div>
+            {/* item 3 */}
             <div className="max-w-[150p]">
               <h5 className="text-white text-[24px] font-medium font-overpass pb-4">
                 Pages
@@ -37,46 +57,26 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            {/* item 3 */}
-            <div className="max-w-[150p]">
-              <h5 className="text-white text-[24px] font-medium font-overpass pb-4">
-                Quick Links
-              </h5>
-              <ul className="flex flex-col gap-y-1">
-                <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Home</a>
-                </li>
-                <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">About Us</a>
-                </li>
-                <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Our Services</a>
-                </li>
-                <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Contact us</a>
-                </li>
-              </ul>
-            </div>
             {/* item 4 */}
             <div className="max-w-[150p]">
               <h5 className="text-white text-[24px] font-medium font-overpass pb-4">
-                Quick Links
+               Follow Us
               </h5>
               <ul className="flex flex-col gap-y-1">
                 <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Home</a>
+                  <a href="#">Facebook</a>
                 </li>
                 <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">About Us</a>
+                  <a href="#">Instagram</a>
                 </li>
                 <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Our Services</a>
+                  <a href="#">Dribble</a>
                 </li>
                 <li className="text-white text-[18px] font-medium font-poppins">
-                  <a href="#">Contact us</a>
+                  <a href="#">Behamce</a>
                 </li>
               </ul>
-            </div> 
+            </div>
             <div></div>
             <div></div>
           </div>
